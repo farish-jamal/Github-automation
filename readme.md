@@ -36,14 +36,14 @@ git clone https://github.com/your-username/github-automation.git
 cd github-automation
 
 ### Install dependencies:
-```npm install
+    npm install
 
 ### Configure environment variables:
 
-``` GITHUB_USERNAME=your-github-username
+GITHUB_USERNAME=your-github-username
 GITHUB_TOKEN=your-github-token
 VERCEL_TOKEN=your-vercel-token
 
 
 ### Run the script:
-``` node index.js
+node index.js
